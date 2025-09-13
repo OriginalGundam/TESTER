@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 422.5,
-              "y": -10
+              "x": 400,
+              "y": -90
             },
             "size": {
               "width": 60,
@@ -139,8 +139,8 @@
           },
           {
             "position": {
-              "x": 752.5,
-              "y": -170
+              "x": 1.25,
+              "y": 140
             },
             "size": {
               "width": 130,
@@ -256,8 +256,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 160
+              "x": 458,
+              "y": 200
             },
             "size": {
               "width": 120,
@@ -380,8 +380,8 @@
           },
           {
             "position": {
-              "x": 482.5,
-              "y": -180
+              "x": 1.25,
+              "y": 30
             },
             "size": {
               "width": 112.5,
@@ -497,8 +497,8 @@
           },
           {
             "position": {
-              "x": 310,
-              "y": -150
+              "x": 1.25,
+              "y": -90
             },
             "size": {
               "width": 112.5,
@@ -632,7 +632,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User request reviews.\nWeb server returns results",
+              "name": "Request/Return Reviews",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -645,27 +645,18 @@
               "threats": []
             },
             "labels": [
-              "User request reviews.\nWeb server returns results"
+              "Request/Return Reviews"
             ],
             "id": "9d153260-0e26-4fee-a048-284a8744748b",
             "source": {
               "cell": "4bf43135-4852-427b-a5ed-4e3b0f2aba56",
-              "port": "edd43baf-56ae-4c23-9eb1-159bff814cdf"
+              "port": "c1ea1e90-56cc-4c0b-a38b-936998e2920c"
             },
             "target": {
               "cell": "b58dd275-a2c0-42c8-8d8d-b93a93999337",
               "port": "bd40ed09-0412-419f-884a-8074b2f3a7d8"
             },
-            "vertices": [
-              {
-                "x": 366,
-                "y": -40
-              },
-              {
-                "x": 390,
-                "y": -20
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -704,17 +695,67 @@
             ],
             "id": "e74dcf9e-44cb-4a35-b787-3ed2ef3c28f7",
             "source": {
-              "x": 450,
-              "y": 50
+              "cell": "b58dd275-a2c0-42c8-8d8d-b93a93999337",
+              "port": "b11c33d4-70d7-4741-a6d9-ab6bb247a814"
             },
             "target": {
               "cell": "bcee1f9d-19a8-4cb3-ae33-804aa98c39a8",
-              "port": "920af5b9-f24f-4d84-9493-52ba430257c7"
+              "port": "bf7ca381-3cf5-480c-b451-5f9bb5bb0d5d"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request, Post, Remove Reviews/\n Return Reviews, Acknowledge posting/removal",
+              "description": "The \"/\" separateswhat the User sends and waht the server responds or does",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request, Post, Remove Reviews/\n Return Reviews, Acknowledge posting/removal"
+            ],
+            "id": "9da44638-3873-47d5-bac3-0b292819540b",
+            "source": {
+              "cell": "b9a6be0d-6ed5-48ee-b0c4-c2b6537fef1e",
+              "port": "3b931d34-e03c-4810-a785-85d59292d543"
+            },
+            "target": {
+              "cell": "b58dd275-a2c0-42c8-8d8d-b93a93999337",
+              "port": "d12908cd-9283-4b77-bd62-fa651cce88f1"
             },
             "vertices": [
               {
-                "x": 430,
-                "y": 90
+                "x": 190,
+                "y": 10
+              },
+              {
+                "x": 290,
+                "y": 10
               }
             ]
           },
@@ -727,7 +768,53 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authenticate/Acknowledge",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Authenticate/Acknowledge"
+            ],
+            "id": "5066a8b8-83f1-4d4f-a7e1-ad366208bae2",
+            "source": {
+              "cell": "b9a6be0d-6ed5-48ee-b0c4-c2b6537fef1e",
+              "port": "c1ea1e90-56cc-4c0b-a38b-936998e2920c"
+            },
+            "target": {
+              "cell": "b71db048-e897-40e0-ba8d-5b9ae6bdb2eb",
+              "port": "bd40ed09-0412-419f-884a-8074b2f3a7d8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -744,7 +831,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -753,20 +840,26 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "c9d5bd5e-d310-4eed-ac4e-94da5d3466dd",
+            "id": "e20afa69-3047-404b-962a-6c9d53247bc6",
             "source": {
-              "x": 502,
-              "y": 100
+              "cell": "bd08ef99-36f1-41f1-8008-f1ebba686c97",
+              "port": "c1ea1e90-56cc-4c0b-a38b-936998e2920c"
             },
             "target": {
-              "x": 602,
-              "y": 200
-            }
+              "cell": "b71db048-e897-40e0-ba8d-5b9ae6bdb2eb",
+              "port": "d12908cd-9283-4b77-bd62-fa651cce88f1"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 150
+              }
+            ]
           },
           {
             "position": {
-              "x": 600,
-              "y": 10
+              "x": 353.75,
+              "y": 30
             },
             "size": {
               "width": 60,
@@ -784,6 +877,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -880,8 +974,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 11
+            }
           },
           {
             "position": {
@@ -904,6 +997,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1000,8 +1094,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 12
+            }
           },
           {
             "position": {
@@ -1024,6 +1117,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1120,8 +1214,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 13
+            }
           },
           {
             "position": {
@@ -1144,6 +1237,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1240,13 +1334,12 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
-              "x": 350,
-              "y": 150
+              "x": 635,
+              "y": -90
             },
             "size": {
               "width": 120,
@@ -1267,6 +1360,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1364,13 +1458,12 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 15
+            }
           },
           {
             "position": {
-              "x": 783.75,
-              "y": 60
+              "x": 293.75,
+              "y": 200
             },
             "size": {
               "width": 120,
@@ -1391,6 +1484,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1488,8 +1582,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 16
+            }
           }
         ],
         "description": "Vulnerable Target"
