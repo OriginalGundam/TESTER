@@ -726,16 +726,6 @@
               "cell": "2f889f46-17d2-4919-8238-bcc456468d6c",
               "port": "920af5b9-f24f-4d84-9493-52ba430257c7"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": -340,
@@ -1268,65 +1258,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request, Remove Reviews, Access Admin Tools/\n Return Reviews, Confirm Deletion, Return Access",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request, Remove Reviews, Access Admin Tools/\n Return Reviews, Confirm Deletion, Return Access"
-            ],
-            "id": "3a89477d-7f2a-45b8-a512-f8c914d89878",
-            "source": {
-              "cell": "bd08ef99-36f1-41f1-8008-f1ebba686c97",
-              "port": "edd43baf-56ae-4c23-9eb1-159bff814cdf"
-            },
-            "target": {
-              "cell": "b58dd275-a2c0-42c8-8d8d-b93a93999337",
-              "port": "bd40ed09-0412-419f-884a-8074b2f3a7d8"
-            },
-            "vertices": [
-              {
-                "x": -380,
-                "y": 210
-              },
-              {
-                "x": 310,
-                "y": 210
-              },
-              {
-                "x": 330,
-                "y": 130
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": ""
                 },
                 "strokeDasharray": null
@@ -1369,6 +1300,10 @@
               },
               {
                 "x": 350,
+                "y": 120
+              },
+              {
+                "x": -300,
                 "y": 120
               }
             ]
@@ -1423,6 +1358,75 @@
                 "y": 330
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request, Remove Reviews, Access Admin Tools/\n Return Reviews, Confirm Deletion, Return Access",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request, Remove Reviews, Access Admin Tools/\n Return Reviews, Confirm Deletion, Return Access"
+            ],
+            "id": "3a89477d-7f2a-45b8-a512-f8c914d89878",
+            "source": {
+              "cell": "bd08ef99-36f1-41f1-8008-f1ebba686c97",
+              "port": "c1ea1e90-56cc-4c0b-a38b-936998e2920c"
+            },
+            "target": {
+              "cell": "b58dd275-a2c0-42c8-8d8d-b93a93999337",
+              "port": "bd40ed09-0412-419f-884a-8074b2f3a7d8"
+            },
+            "vertices": [
+              {
+                "x": -70,
+                "y": 230
+              },
+              {
+                "x": 310,
+                "y": 210
+              },
+              {
+                "x": 330,
+                "y": 130
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
