@@ -497,8 +497,8 @@
           },
           {
             "position": {
-              "x": -466.25,
-              "y": -270
+              "x": -600,
+              "y": -110
             },
             "size": {
               "width": 112.5,
@@ -610,6 +610,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1341,8 +1348,8 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": -310
+              "x": 630,
+              "y": -260
             },
             "size": {
               "width": 60,
@@ -1461,7 +1468,7 @@
           },
           {
             "position": {
-              "x": 920,
+              "x": 950,
               "y": 30
             },
             "size": {
@@ -1705,8 +1712,8 @@
           },
           {
             "position": {
-              "x": 860,
-              "y": -350
+              "x": 930,
+              "y": -260
             },
             "size": {
               "width": 120,
