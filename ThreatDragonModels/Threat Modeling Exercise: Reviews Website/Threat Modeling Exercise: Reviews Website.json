@@ -61,12 +61,12 @@
           },
           {
             "position": {
-              "x": 330,
-              "y": 405
+              "x": 340,
+              "y": 385
             },
             "size": {
               "width": 540,
-              "height": 90
+              "height": 60
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -673,6 +673,75 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update Settings/\nLoad and\nConfirm Settings",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Update Settings/\nLoad and\nConfirm Settings"
+            ],
+            "id": "526a87df-5636-4fec-bd12-145cc05b2e5c",
+            "source": {
+              "cell": "bd08ef99-36f1-41f1-8008-f1ebba686c97",
+              "port": "edd43baf-56ae-4c23-9eb1-159bff814cdf"
+            },
+            "target": {
+              "cell": "2f889f46-17d2-4919-8238-bcc456468d6c",
+              "port": "920af5b9-f24f-4d84-9493-52ba430257c7"
+            },
+            "vertices": [
+              {
+                "x": -340,
+                "y": 260
+              },
+              {
+                "x": -340,
+                "y": 290
+              },
+              {
+                "x": 66.25,
+                "y": 290
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
@@ -1349,61 +1418,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update Settings/\nLoad and\nConfirm Settings",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Update Settings/\nLoad and\nConfirm Settings"
-            ],
-            "id": "526a87df-5636-4fec-bd12-145cc05b2e5c",
-            "source": {
-              "cell": "bd08ef99-36f1-41f1-8008-f1ebba686c97",
-              "port": "edd43baf-56ae-4c23-9eb1-159bff814cdf"
-            },
-            "target": {
-              "cell": "2f889f46-17d2-4919-8238-bcc456468d6c",
-              "port": "bf7ca381-3cf5-480c-b451-5f9bb5bb0d5d"
-            },
-            "vertices": [
-              {
-                "x": -340,
-                "y": 290
-              },
-              {
-                "x": -60,
-                "y": 360
-              }
-            ]
-          },
-          {
             "position": {
               "x": 640,
               "y": -140
@@ -1645,8 +1659,8 @@
           },
           {
             "position": {
-              "x": 20,
-              "y": 325
+              "x": 110,
+              "y": 340
             },
             "size": {
               "width": 120,
