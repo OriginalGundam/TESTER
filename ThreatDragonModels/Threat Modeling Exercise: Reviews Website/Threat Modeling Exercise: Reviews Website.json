@@ -19,17 +19,17 @@
         "cells": [
           {
             "position": {
-              "x": 629.9999999999998,
-              "y": -200
+              "x": 630,
+              "y": -155
             },
             "size": {
               "width": 500,
-              "height": 150
+              "height": 90
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "0a7af08d-f6af-43a3-9204-874e98045d3d",
             "zIndex": -1,
+            "id": "0a7af08d-f6af-43a3-9204-874e98045d3d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -40,15 +40,16 @@
           },
           {
             "position": {
-              "x": 660,
-              "y": -30
+              "x": 695,
+              "y": -25.00000000000034
             },
             "size": {
-              "width": 500,
-              "height": 150
+              "width": 430,
+              "height": 110
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "2d3291df-7da9-4d68-bf3d-944ab238daf5",
             "data": {
               "type": "tm.BoundaryBox",
@@ -56,28 +57,34 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
-              "x": 340,
-              "y": 385
+              "x": 330,
+              "y": 410.0000000000001
             },
             "size": {
-              "width": 540,
-              "height": 60
+              "width": 470,
+              "height": 80
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5f0472db-758b-4a0c-8eb4-d29cf9c32fa8",
             "zIndex": -1,
+            "id": "5f0472db-758b-4a0c-8eb4-d29cf9c32fa8",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -719,6 +726,16 @@
               "cell": "2f889f46-17d2-4919-8238-bcc456468d6c",
               "port": "920af5b9-f24f-4d84-9493-52ba430257c7"
             },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            },
             "vertices": [
               {
                 "x": -340,
@@ -732,17 +749,7 @@
                 "x": 66.25,
                 "y": 290
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1784,7 +1791,7 @@
           {
             "position": {
               "x": 990,
-              "y": -130
+              "y": -140
             },
             "size": {
               "width": 120,
@@ -2078,8 +2085,8 @@
           },
           {
             "position": {
-              "x": 980,
-              "y": 40
+              "x": 990,
+              "y": 0
             },
             "size": {
               "width": 120,
