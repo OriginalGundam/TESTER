@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": -270,
-              "y": -150
+              "x": -280.00000000000455,
+              "y": -189.99999999999085
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 1440,
+              "height": 680
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -59,8 +59,8 @@
                 "text": "Web\nServer"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -157,98 +157,19 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "269614c6-c7e4-4837-ab87-2e306b747a83",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 14,
-                  "score": ""
-                },
-                {
-                  "id": "ebd0dc9a-9e39-4c0d-a0cd-916612c455e3",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 15,
-                  "score": ""
-                },
-                {
-                  "id": "1fc33ede-9e6b-489a-8ad8-c2a342a3969b",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 16,
-                  "score": ""
-                },
-                {
-                  "id": "be8405b4-2fb0-4ccf-a15d-81ea7f492d92",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 17,
-                  "score": ""
-                },
-                {
-                  "id": "a90bb99b-68e3-4f00-9c69-7ce997bcfba7",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Denial of service",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 18,
-                  "score": ""
-                },
-                {
-                  "id": "f31d3e2f-7591-4ece-a551-744114275c31",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Elevation of privilege",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 19,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 1,
-                "tampering": 1,
-                "repudiation": 1,
-                "informationDisclosure": 1,
-                "denialOfService": 1,
-                "elevationOfPrivilege": 1
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
               }
             }
           },
@@ -624,8 +545,8 @@
                 "text": "Anonymous User"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -722,39 +643,12 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "35a42bd8-3d58-403c-a577-9d6010e8b9db",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 12,
-                  "score": ""
-                },
-                {
-                  "id": "c9847ab5-7de9-4591-adad-ecefc2f83ee5",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 13,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 1,
-                "repudiation": 1
+                "spoofing": 0,
+                "repudiation": 0
               }
             }
           },
@@ -1629,13 +1523,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1896,13 +1783,11 @@
                 "text": "Identity\nInformation\nServer"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1999,71 +1884,18 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": [
-                {
-                  "id": "02107bde-1f30-4b56-b291-49fa6f9b0977",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 8,
-                  "score": ""
-                },
-                {
-                  "id": "10b46018-bfb4-4f90-b947-9ffa612a6b47",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": ""
-                },
-                {
-                  "id": "ea509d3a-0cc8-4a0b-a5be-7b1fc8f6a226",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 10,
-                  "score": ""
-                },
-                {
-                  "id": "12dd39b6-78ef-44b0-9d86-e257b7c6e71e",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Denial of service",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 11,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "tampering": 1,
-                "repudiation": 1,
-                "informationDisclosure": 1,
-                "denialOfService": 1
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
               }
             }
           },
